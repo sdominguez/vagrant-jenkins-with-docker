@@ -20,11 +20,11 @@ Automatizar la creación de un entorno local de CI/CD con:
 
 Antes de comenzar, asegúrate de tener instalados:
 
-| Herramienta | Descripción | Enlace |
-|--------------|-------------|--------|
-| [Vagrant](https://developer.hashicorp.com/vagrant/downloads) | Herramienta para crear entornos virtuales reproducibles | |
-| [VirtualBox](https://www.virtualbox.org/wiki/Downloads) | Proveedor de virtualización para Vagrant | |
-| [Git](https://git-scm.com/downloads) *(opcional)* | Para clonar este repositorio | |
+| Herramienta | Descripción |
+|--------------|-------------|
+| [Vagrant](https://developer.hashicorp.com/vagrant/downloads) | Herramienta para crear entornos virtuales reproducibles |
+| [VirtualBox](https://www.virtualbox.org/wiki/Downloads) | Proveedor de virtualización para Vagrant |
+| [Git](https://git-scm.com/downloads) *(opcional)* | Para clonar este repositorio |
 
 ---
 
