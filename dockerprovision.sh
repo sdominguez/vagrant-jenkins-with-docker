@@ -54,12 +54,6 @@ if [[ -n "${COMPOSE_FILE}" ]]; then
     echo "DOCKER_GID detectado: ${DOCKER_GID}"
   fi
 
-#  if ! docker compose version >/dev/null 2>&1; then
-#    echo "Instalando docker-compose-plugin (compose v2)..."
-#    sudo apt-get update -y
-#    sudo apt-get install -y docker-compose-plugin
-#  fi
-
   echo "→ Ejecutando docker compose dentro de ${WORKDIR}"
   sudo -H -u vagrant -g docker env HOME=/home/vagrant DOCKER_CONFIG=/home/vagrant/.docker DOCKER_GID="${DOCKER_GID}" bash -lc "
     cd '${WORKDIR}' && \
